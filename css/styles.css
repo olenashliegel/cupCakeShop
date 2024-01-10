@@ -1,0 +1,32 @@
+.flashy {
+  color: red;
+  font-style: italic;
+}
+
+#bestCupCake {
+  color: purple;
+  font-size: 100px;
+}
+
+.cupCakeContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img.recepie {
+  width: 200px;
+  height: auto;
+}
+
+.mainPicture {
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.cupCakeContainer>div {
+  margin: 100px;
+  width: 20%;
+  border: 5px solid red;
+  text-align: center;
+}
